@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+/**
+cores: #212621
+#cabdad
+#994e0d
+#4a261a
+*/
+
+
+body {
+   background-color: #cabdca;
+   color: #4a261a;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+header {
+    background-color: #4a261a;
+    
+}
+
+a {
+    background-color: #5e2f1f;
+    color: #c48634;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #cabdca;
+}
+
+ul {
+    
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.git {
+    color: #c48634;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#banner {
+    background-image: url(../imagens/coffee-banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.coffee {
+    
+    
+}
